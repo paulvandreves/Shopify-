@@ -6,11 +6,12 @@
 <hr>
 <div class="row">
   <div class="col-xs-12">
-    <!-- [binds] to recipe property  in recipe.component.ts -->
+    <!-- [binds] to recipe property  in recipe.component.ts
+    passes the recipeEl to the onRecipeSelected method  -->
     <app-recipe-item
     *ngFor="let recipeEl of recipes"
     [recipe]="recipeEl"
-    
+    (recipeSelected)="onRecipeSelected(recipeEl)"
     ></app-recipe-item>
   </div>
 </div>
