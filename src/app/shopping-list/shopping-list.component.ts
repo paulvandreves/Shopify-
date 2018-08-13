@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 import { Ingredient } from '../shared/ingredient.model'; 
 
@@ -8,7 +8,7 @@ import { Ingredient } from '../shared/ingredient.model';
   styleUrls: ['./shopping-list.component.css']
 })
 export class ShoppingListComponent implements OnInit {
-  ingredients: Ingredient[] = [
+   @Input() ingredients: Ingredient[] = [
     new Ingredient('Apples', 5),
     new Ingredient('Cheries', 10), 
 
@@ -17,6 +17,10 @@ export class ShoppingListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onIngredientAdded(ingredient: Ingredient){
+    this.ingredients.push(ingredient); 
   }
 
 }

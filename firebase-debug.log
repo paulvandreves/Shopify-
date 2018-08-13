@@ -1,0 +1,32 @@
+[debug] [2018-08-13T14:15:57.361Z] ----------------------------------------------------------------------
+[debug] [2018-08-13T14:15:57.363Z] Command:       /usr/local/Cellar/node/10.7.0/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-13T14:15:57.363Z] CLI Version:   4.0.3
+[debug] [2018-08-13T14:15:57.363Z] Platform:      darwin
+[debug] [2018-08-13T14:15:57.363Z] Node Version:  v10.7.0
+[debug] [2018-08-13T14:15:57.364Z] Time:          Mon Aug 13 2018 10:15:57 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-13T14:15:57.364Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-13T14:15:57.372Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-13T14:15:57.372Z] > authorizing via signed-in user
+[debug] [2018-08-13T14:15:57.374Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/angular6-ecommerece  
+  
+ Mon Aug 13 2018 10:15:57 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-13T14:15:57.596Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-13T14:15:57.597Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/angular6-ecommerece/tokens  
+  
+ Mon Aug 13 2018 10:15:57 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-13T14:15:57.844Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-13T14:15:57.845Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/angular6-ecommerece  
+  
+ Mon Aug 13 2018 10:15:57 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-13T14:15:58.043Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/paulvandyke/Code_For_Fun/shopify'...
+[info] 
+[debug] [2018-08-13T14:15:58.045Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/446355820808/clients/_:getWebAppConfig  
+  
+ Mon Aug 13 2018 10:15:58 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-13T14:15:58.279Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] ✔  hosting: Local server: http://localhost:5000
+
